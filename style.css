@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@100 & family= Poppins:wght@100;400 & family= Roboto:ital,wght@0,100;1,100 & family= Sigmar & display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 768px){
+    main{
+
+        background-color: red;
+    }
+}
+
+body{
+    background-color: #EFF5F5;
+}
+
+.main{
+    padding-top: 5rem;
+}
+
+
+/*BARRA DE NAVEGACION*/
+
+
+.contenedor{
+    background-color: #181823;
+    padding-left: 800px;
+    padding-right: 800px;
+    
+}
+
+.div-titulo{
+    background-color: #EFF5F5;
+}
+
+.titulo{
+    color: #181823;
+    text-align: center;
+    border: 4px solid black;
+}
+
+.header{
+    background-color: #181823;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header .logo img{
+    height: 70px;
+    
+}
+
+.navbar{
+    list-style: none;
+    margin-bottom: -0.3rem;
+    
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 30px;
+    
+}
+
+
+.navbar a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar a:hover{
+    transition: 1.5s;
+    color: rgb(80, 82, 90);
+}
+
+.boton{
+     border-radius: 50px; 
+}
+
+.boton a{
+    font-size: 15px;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: bold;
+    color: black;
+    
+}
+
+.titulo-uno{
+    margin: 0px 0px 0px 2rem;
+    left: 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+
+
+/*PRIMERA SECTION*/
+
+
+
+#uno{
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url('ruta/a/imagen.jpg');
+    padding: 20rem;
+    background-image: url(./img/nenes-jugando.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 4rem;
+    margin-top: -2rem;
+    
+}
+
+.texto-uno{
+    font-size: 19px;
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+
+.parrafo-uno{
+    padding-inline: 140px;
+    font-size: medium;
+}
+
+.div-parrafo-uno{
+    display: flex;
+    align-items: center;
+}
+
+.cuadros{
+    padding: 70px;
+    padding-inline: 200px;
+    margin: 2rem;
+    background-color: #85929E;
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: auto auto;
+}
+
+.div-cuadros{
+    font-size: 15px;
+    height: 300px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+
+
+.margin-cuadros{
+     margin: 20px;
+}
+
+.margin-cuadros h2{
+    margin: 0px 0px 0px 0px;
+    color: #85C1E9 ;
+}
+
+
+/*SECTION 2*/
+
+
+
+.titulo-dos{
+    margin: 0px 0px 0px 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+.contenedor2-section1-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.h3-dos{
+    margin: 0px 0px 0px 20rem;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+
+.contenedor2-section1-div p{
+    padding: 0px 20rem;
+}
+
+.img-nenes{ 
+    margin: 4px 8rem 4rem 0px;
+}
+
+.contenedor2-section2{
+    background-color: #85929E;
+    padding: 2rem 0rem;
+}
+
+.ventajas{
+    margin: 5rem 0px;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.contenedor2-section2-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 0px 15rem 0px 0px;
+    gap: 2rem;
+}
+
+.contenedor2-section2-div p, h2{
+    margin: 0px 0px 0px 20rem;
+}
+.contenedor2-section2-div img{ 
+    margin: 2rem 0px 2rem 27rem;
+    height: 150px;
+    width: 190px;
+    border-radius: 50%;
+}
+
+.contenedor2-section2-div p{
+    font-size: 0.9rem;
+}
+
+
+/*SECTION 3*/
+
+.ultimo-texto-section3{
+    margin: 0px 10rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.ultimo-texto-section3 p{
+        font-weight: bold;
+        text-align: center;
+}
+
+.titulo-tres{
+    margin: 0px 0px 0px 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+.contenedor3-section1{
+    background-color: #85929E;
+    margin: 0px 10rem ;
+    border: 2rem solid ;
+    margin-bottom: 3rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 3rem;
+}
+
+.contenedor-tres h4{
+    color:black;
+    font-weight: bold;
+}
+
+.contenedor-tres img {
+    margin: 0rem 0px 0px 7rem;
+    height: 180px;
+}
+
+.contenedor-tres p{
+    margin: 2rem 9rem 0px 5.5rem;
+    font-weight: 550;                   
+}
+
+
+#unico{
+    margin: 0rem 0px 0px -2.5rem;
+}
+.contenedor-tres h4{
+    margin: 5rem 0px 0px 11rem;
+    font-size: 20px;
+}
+
+
+
+
+
+.titulo-cuatro{
+margin: 0px 0px 0px 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+.div-texto-section4{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: gray;
+}
+
+.texto-section4{
+    flex: 1;
+}
+
+.texto-section4:first-child{
+    flex: 2;
+    padding: 25px;
+    background-color: #fff;
+    margin: 20px;
+}
+
+.texto-section4 div{
+    padding: 25px;
+    background-color: #fff;
+    margin: 20px;
+}
+
+/*FOOTER*/
+
+
+
+.flex-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #b5b5b5;
+    border: 1px solid black;
+}
+
+.flex-footer h5{
+    font-size: 1.6rem;
+}
+
+.lista-iconos{
+
+    margin: 1px;
+    
+}
+
+.caja1{
+    
+    padding: 20px;
+    list-style: none;
+}
+
+
+.caja2{
+    padding: 20px;
+}
+.ul-epigrafe{
+    list-style: none;
+}
+
+.epigrafe{
+    font-weight: bold;
+    padding-top: 2rem;
+}
+
+.caja3{
+    padding: 20px;
+}
+
+.fa-brands, .fa-solid{
+     margin: 3rem;
+}
+
+.fa-twitter{
+    color:  skyblue;
+}
+
+.fa-instagram{
+    
+    position: relative;
+    color: #833AB4;
+}
+
+.fa-facebook{
+    
+    position: relative;
+    color: blue;
+}
+
+.instagram, .twitter, .facebook, .gmail, .telefono ,.whatsapp{
+    
+    padding-left: 5px;
+    color: black;
+    font-weight: 700;
+}
+
+.fa-envelope{
+    color: black;
+}
+
+.fa-phone{
+    color: blue;
+}
+
+.fa-whatsapp{
+    color: green;
+}
+
+
+
+
+
+

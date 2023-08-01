@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.formulario.css">
+
+    <title>Formulario</title>
+</head>
+
+<body>
+    <main>
+
+        <h1>Contacto</h1>
+        <form action="https://formsubmit.co/santiasenzo2004@gmail.com " method="POST">
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+    
+            <label for="asunto">Asunto:</label>
+            <input type="text" id="asunto" name="asunto" required>
+    
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+    
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+</body>
+</html>
